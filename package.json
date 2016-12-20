@@ -45,15 +45,11 @@
     "name": "mforgit",
     "email": "michael.forgit@gmail.com"
   },
-  "dist": {
-    "shasum": "",
-    "tarball": "https://registry.npmjs.org/"
-  },
   "maintainers": [
     {
       "name": "mforgit",
       "email": "michael.forgit@gmail.com"
     }
   ],
-  "_resolved": "https://registry.npmjs.org/"
+  "_resolved": "https://www.npmjs.com/package/gulp-bower-update-all"
 }
