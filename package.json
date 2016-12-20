@@ -23,22 +23,21 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/"
+    "url": "git+ssh://git@github.com:mikef438/gulp-bower-update.git"
   },
   "dependencies": {
     "gulp-util": "^3.0.4",
     "through2": "0.6.2"
   },
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/mikef438/gulp-bower-update/issues"
   },
-  "homepage": "https://github.com/#readme",
+  "homepage": "https://github.com/mikef438/gulp-bower-update/#readme",
   "bin": {
-    "bower-update-all": "bin/gulp-bower-update"
+    "gulp-bower-update": "bin/gulp-bower-update"
   },
-  "gitHead": "",
+  "gitHead": "b3d8bd261b7587054793019f77bb4dbc7a09b127",
   "_id": "gulp-bower-update@1.0.0",
-  "_shasum": "",
   "_from": "gulp-bower-update@latest",
   "_npmVersion": "2.14.1",
   "_nodeVersion": "0.12.7",
