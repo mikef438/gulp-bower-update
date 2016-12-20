@@ -1,7 +1,7 @@
 {
-  "name": "gulp-bower-update",
+  "name": "gulp-bower-update-all",
   "version": "1.0.0",
-  "description": "Update all of your Bower dependencies in one single command",
+  "description": "Update all of your Bower dependencies via gulp with a single command",
   "main": "index.js",
   "preferGlobal": true,
   "directories": {
@@ -23,22 +23,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:mikef438/gulp-bower-update.git"
+    "url": "git+ssh://git@github.com:mikef438/gulp-bower-updatev.git"
   },
   "dependencies": {
     "gulp-util": "^3.0.4",
     "through2": "0.6.2"
   },
   "bugs": {
-    "url": "https://github.com/mikef438/gulp-bower-update/issues"
+    "url": "https://github.com/mikef438/gulp-bower-update-all/issues"
   },
-  "homepage": "https://github.com/mikef438/gulp-bower-update/#readme",
+  "homepage": "https://github.com/mikef438/gulp-bower-update-all/#readme",
   "bin": {
-    "gulp-bower-update": "bin/gulp-bower-update"
+    "gulp-bower-update-all": "bin/gulp-bower-update-all"
   },
   "gitHead": "b3d8bd261b7587054793019f77bb4dbc7a09b127",
-  "_id": "gulp-bower-update@1.0.0",
-  "_from": "gulp-bower-update@latest",
+  "_id": "gulp-bower-update-all@1.0.0",
+  "_from": "gulp-bower-update-all@latest",
   "_npmVersion": "2.14.1",
   "_nodeVersion": "0.12.7",
   "_npmUser": {

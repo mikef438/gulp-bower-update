@@ -1,4 +1,4 @@
-# gulp-bower-update
+# gulp-bower-update-all
 Force updates to the latest version of your bower dependencies. It does this synchronously to allow for updates to 
 complete before executing dependent gulp tasks.
 
@@ -12,13 +12,13 @@ Usage
 --------------
 
 ```
-sudo npm install gulp-bower-update --save-dev
+sudo npm install gulp-bower-update-all --save-dev
 ```
 
 ```
-var bowerUpdate = require('gulp-bower-update');
+var bowerUpdate = require('gulp-bower-update-all');
 
-gulp.task('gulp-bower-update', function () {
+gulp.task('gulp-bower-update-all', function () {
     return gulp.src('bower.json')
       .pipe(bowerUpdate(true))
       .on('error', function (e) {
