@@ -1,0 +1,60 @@
+{
+  "name": "gulp-bower-update",
+  "version": "1.0.0",
+  "description": "Update all of your Bower dependencies in one single command",
+  "main": "index.js",
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bower",
+    "update",
+    "all",
+    "dependencies",
+    "gulp"
+  ],
+  "author": {
+    "name": "Michael Forgit"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "0.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/#readme",
+  "bin": {
+    "bower-update-all": "bin/gulp-bower-update"
+  },
+  "gitHead": "",
+  "_id": "gulp-bower-update@1.0.0",
+  "_shasum": "",
+  "_from": "gulp-bower-update@latest",
+  "_npmVersion": "2.14.1",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "mforgit",
+    "email": "michael.forgit@gmail.com"
+  },
+  "dist": {
+    "shasum": "",
+    "tarball": "https://registry.npmjs.org/"
+  },
+  "maintainers": [
+    {
+      "name": "mforgit",
+      "email": "michael.forgit@gmail.com"
+    }
+  ],
+  "_resolved": "https://registry.npmjs.org/"
+}
