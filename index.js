@@ -76,7 +76,7 @@ module.exports = function (isGitOnly) {
                 .forEach(function (dep) {
                     value = bowerJson.dependencies[dep];
                     if(isGitOnly) {
-                        if(value.endsWith('git')) {
+                        if(value.indexOf('git') > -1) {
                             updater.addDependency(value);
                         }
                     }
@@ -91,7 +91,7 @@ module.exports = function (isGitOnly) {
                 .keys(bowerJson.devDependencies)
                 .forEach(function (dep) {
                     if(isGitOnly) {
-                        if(value.endsWith('git')) {
+                        if(value.indexOf('git') > -1) {
                             updater.addDependency(value);
                         }
                     }
