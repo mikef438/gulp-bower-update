@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Update all of your Bower dependencies via gulp with a single command",
   "main": "index.js",
-  "preferGlobal": true,
+  "preferGlobal": false,
   "directories": {
     "bin": "./bin"
   },
