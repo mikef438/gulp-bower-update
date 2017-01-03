@@ -8,7 +8,7 @@ var pluginError = gutil.PluginError;
 
 //isGitOnly flag used to download from dependencies only in git repos
 /*jslint indent: 4, maxlen: 80, node: true */
-module.exports = function (isGitOnly) {
+module.exports = function (isGitOnly, isSave) {
     'use strict';
     var DependencyUpdater;
     var handleFile;
@@ -24,8 +24,12 @@ module.exports = function (isGitOnly) {
             dependencies = [];
 
         updateDependency = function (dep, cb) {
-            var command = 'bower install ' + dep.name + ' --force-latest --save';
-
+            var command = 'bower install ' + dep.name + ' --force-latest';
+			
+			if(isSave) {
+				command = ' --save';
+			}
+			
             if (dep.dev) {
                 command += '-dev';
             }
