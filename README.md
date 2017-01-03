@@ -32,3 +32,4 @@ After this, the dependencies in the provided bower.json file will be updated to 
 Parameters
 --------------
     isGitOnly        Check only for dependencies that point to a .git location
+	isSave			 Saves to bower.json file. Default false to always get the latest version.
