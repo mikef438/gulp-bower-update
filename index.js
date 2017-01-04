@@ -27,7 +27,7 @@ module.exports = function (isGitOnly, isSave) {
             var command = 'bower install ' + dep.name + ' --force-latest';
 			
 			if(isSave) {
-				command = ' --save';
+				command += ' --save';
 			}
 			
             if (dep.dev) {
